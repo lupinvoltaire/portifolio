@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento</title>
+    <link rel="stylesheet" href="portifolio.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f3d5d5 0%, #e6d5ff 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2d1b2e;
+        }
+
+        .pricing-page {
+            width: min(1000px, 90%);
+            padding: 40px 24px;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+            margin-top: 24px;
+        }
+
+        .price-card {
+            background: rgba(255, 255, 255, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+            border-radius: 18px;
+            padding: 26px 20px;
+            text-align: center;
+            box-shadow: 0 18px 40px rgba(69, 46, 76, 0.12);
+        }
+
+        .price-card h2 {
+            margin-bottom: 10px;
+            color: #3d2b4d;
+        }
+
+        .price {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #6b3fa0;
+            margin-bottom: 10px;
+        }
+
+        .price-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 18px 0 22px;
+            color: #4a3751;
+            line-height: 2;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 20px;
+            background: #5f3d8b;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-page">
+        <h1>Orçamento</h1>
+        <p>Confira abaixo os valores dos serviços disponíveis.</p>
+
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h2>Landing Page</h2>
+                <div class="price">R$ 100+</div>
+                <ul>
+                    <li>1 página</li>
+                    <li>Design moderno</li>
+                    <li>Responsive</li>
+                </ul>
+            </div>
+
+            <div class="price-card">
+                <h2>Site Completo</h2>
+                <div class="price">R$ 250+</div>
+                <ul>
+                    <li>Até 5 páginas</li>
+                    <li>Formulário de contato</li>
+                    <li>Layout personalizado</li>
+                </ul>
+            </div>
+
+            <div class="price-card">
+                <h2>Loja Virtual</h2>
+                <div class="price">R$ 400+</div>
+                <ul>
+                    <li>Catálogo de produtos</li>
+                    <li>Carrinho</li>
+                    <li>Pagamento integrado</li>
+                </ul>
+            </div>
+
+            <div class="price-card">
+                <h2>Modelagem Low Poly e CPM Minecraft</h2>
+                <div class="price">R$ 300+</div>
+                <ul>
+                    <li>Modelo low poly</li>
+                    <li>Texturas</li>
+                    <li>Renderização</li>
+                </ul>
+            </div>
+        </div>
+
+        <a class="back-button" href="portifolio.html">Voltar</a>
+    </div>
+</body>
+</html>
